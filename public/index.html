@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Influencers</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>    
+    <nav class="navbar navbar-expand-lg navbar-light bg-danger heading">
+        <a class="navbar-brand mx-auto heading" href="#">
+                <img src="./assets/logo.png" width="75px" height="75px" class="d-inline-block align-top" alt="">    
+            Insta Influencers
+        </a>
+    </nav>
+    <div class="container holder">
+        <div id="influencers" >
+            <!-- Influencers comer here -->
+        </div>
+        <div class="d-block text-center paging pt-3" >
+            <!-- <a class="page fixed-bottom btn btn-primary" href="#">5</a> -->
+            <nav class="d-flex">
+                <ul class="pagination mx-auto">
+                    <li class="page-item">
+                        <a class="page-link" href="#">First</a>
+                    </li>
+                    <li class="page-item disabled"><a class="page-link" href="#" id="previousPage">...</a></li>
+                    <li class="page-item active" aria-current="page">
+                        <a class="page-link" href="#" id="currentPage">1</a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#" id="nextPage">2</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">Last</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+
+    <!-- ---SCRIPTS--- -->
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>    
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    <!-- <script src="images.js"></script> -->
+</body>
+</html>

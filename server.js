@@ -1,3 +1,5 @@
+let PORT = process.env.PORT || 4000;
+
 const express = require('express');
 const app = express();
 const path = require('path');
@@ -10,6 +12,6 @@ app.use(express.static(path.join(__dirname,'public')));
 app.use(routes);
 
 
-app.listen(4000, ()=>{
+app.listen(PORT, ()=>{
     console.log('Server started at http://localhost:4000');
 })
